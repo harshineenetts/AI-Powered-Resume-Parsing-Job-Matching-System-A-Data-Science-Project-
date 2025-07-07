@@ -25,4 +25,12 @@ This project automates the process of extracting structured data from unstructur
 Ideal for automating candidate screening and shortlisting in recruitment pipelines.
 
 ## 📂 Project Structure
+resume-matching/
+│
+├── resume_parser.py # LangChain + Groq LLM parsing logic
+├── matcher.py # Embedding-based job matching logic
+├── requirements.txt
+├── README.md
+└── sample_pdfs/ # Example resumes
+
 
